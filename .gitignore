@@ -1,0 +1,35 @@
+# Fichiers compilés et caches Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environnements virtuels
+.venv/
+venv/
+env/
+
+# Paquets et distribution
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Caches des outils (tests, analyse, typage)
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Éditeurs
+.vscode/
+.idea/
+.spyproject/
+
+# Système
+.DS_Store
+Thumbs.db
+desktop.ini
